@@ -12,9 +12,11 @@ Tecnologias e ferramentas utilizadas:
 Instruções para executar o sistema de busca:
 
 - Certifique-se de que possui Rust instalado.
-- Clone o repositório do projeto em seu ambiente de desenvolvimento:
-  git clone
-  cd megastore_search
+- Clone o repositório do projeto em seu ambiente de desenvolvimento com os comandos:
+  
+  "git clone"
+  
+  "cd megastore_search".
 - Execute o programa, utilizando dentro do terminal o comando "cargo run".
 
 Instruções para executar os testes:
@@ -40,11 +42,11 @@ O sistema é organizado em módulos. Sua arquitetura:
 
 Algoritmos e estruturas de dados utilizados:
 
-- O sistema utiliza tabelas hash (HashMap) para indexar e buscar produtos rapidamente. Cada produto é armazenado em múltiplos índices hash baseados em seus atributos (nome, marca, categoria), o que permite buscas em tempo próximo a O(1) para grandes volumes de dados. Essa abordagem garante que o sistema seja eficiente e escalável, mesmo com milhões de produtos.
+- O sistema utiliza tabelas hash (HashMap) para indexar e buscar produtos rapidamente. Cada produto é armazenado em múltiplos índices hash baseados em seus atributos (nome, marca, categoria), o que permite buscas em tempo próximo a O(1) para grandes volumes de dados. Essa abordagem garante que o sistema seja eficiente e escalável, mesmo com grande volume de produtos.
 
 Considerações sobre desempenho e escalabilidade:
 
-- O sistema de busca desenvolvido foi projetado com foco em desempenho e eficiência, utilizando tabelas hash (HashMap) para indexar produtos por nome, marca e categoria. Essa estrutura oferece tempo médio de busca constante, o que garante respostas rápidas mesmo com grandes volumes de dados em memória.
+- O sistema de busca desenvolvido foi projetado com foco em desempenho e eficiência, oferecendo tempo médio de busca constante, o que garante respostas rápidas mesmo com grandes volumes de dados em memória.
 
 - Pontos fortes:
 
